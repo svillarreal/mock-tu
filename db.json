@@ -1,0 +1,38 @@
+{
+  "productResponse": {
+    "version": 3,
+    "transactionControl": {
+      "country": "us",
+      "language": "en",
+      "userRefNumber": "UR01",
+      "subscriber": {
+        "industryCode": "B",
+        "memberCode": "00002292",
+        "inquirySubscriberPrefixCode": "0502"
+      },
+      "transactionTimeStamp": "2019-07-08T17:07:41.000-05:00"
+    },
+    "product": {
+      "code": "07926",
+      "policyInformation": {
+        "policyHolderName": "MARCUS GREEN",
+        "policyNmbrOrQuoteId": "7875743421ABC448890GTBN23",
+        "policyType": "01",
+        "carrierName": "ENDORSEMENT"
+      },
+      "addOnProduct": [
+        {
+          "code": "00A6H",
+          "status": "defaultDelivered",
+          "scoreModel": {
+            "score": {
+              "results": "+54",
+              "derogatoryAlert": false,
+              "fileInquiriesImpactedScore": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}
