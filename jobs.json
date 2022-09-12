@@ -1,0 +1,45 @@
+[
+  {
+    "productResponse": {
+        "transactionControl": {
+            "country": "us",
+            "language": "en",
+            "userRefNumber": " 20 SUBJ ONLY CD01",
+            "subscriber": {
+                "industryCode": "A",
+                "memberCode": "00009560",
+                "inquirySubscriberPrefixCode": "0728"
+            },
+            "transactionTimeStamp": "2020-02-11T13:08:15.000-06:00"
+        },
+        "customerLogin": [
+            {
+                "type": "customer",
+                "id": "CUSTOMERIDENTIFEXXXX"
+            }
+        ],
+        "product": {
+            "code": "07926",
+            "policyInformation": {
+                "policyHolderName": "INCRED HULK",
+                "policyNmbrOrQuoteId": "7875743421ABC448890GTBN23",
+                "policyType": "01",
+                "carrierName": "ENDORSEMENT"
+            },
+            "addOnProduct": [
+                {
+                    "code": "00A6H",
+                    "status": "defaultDelivered",
+                    "scoreModel": {
+                        "score": {
+                            "results": "+68",
+                            "derogatoryAlert": false,
+                            "fileInquiriesImpactedScore": false
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
+  ]
